@@ -1,0 +1,95 @@
+\documentclass{article}
+
+% Language setting
+% Replace `english' with e.g. `spanish' to change the document language
+\usepackage[english]{babel}
+
+% Set page size and margins
+% Replace `letterpaper' with `a4paper' for UK/EU standard size
+\usepackage[letterpaper,top=2cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Feature Extraction from Text Report}
+\author{MUHAMMAD SHAFEEN ( P22-9278 ) }
+
+\begin{document}
+\maketitle
+
+\begin{Précis}
+Précis
+\end{Précis}
+
+\section{Introduction}
+
+The purpose of this program is to analyze text files from a given directory and compute the Readability Index for each file. The Readability Index is determined by counting the number of characters, words, and sentences in the text. Certain assumptions are made about what constitutes a character, word, and sentence for the ease of program implementation.
+
+
+
+\section{Assumptions and Rules for Counting}
+ \begin{itemize}
+\item Sentences are identified by occurrences of period ('.'), colon (:), semicolon (;), question mark (?), and exclamation mark (!).
+\item Each occurrence of the above sentence terminators is counted as a separate sentence.
+\item If a text has no sentence terminators, assume it has 1 sentence.
+\item A character is defined as any alpha-numeric character, excluding punctuation marks and spaces.
+\item Punctuation marks and spaces are not counted as characters.
+\item A word is defined as a sequence of one or more alpha-numeric characters delimited by white space or sentence terminators.
+
+ \end{itemize}
+\section{ Program Implementation}
+The program reads text files from a specified directory and calculates the Readability Index for each file. The following steps are performed:
+
+
+a. File Reading: The program reads each text file in the given directory.
+
+
+b. Character Counting: Characters are counted, excluding punctuation marks and spaces.
+
+
+c. Word Counting: Words are counted based on the defined rules.
+
+
+d. Sentence Counting: Sentences are counted based on the specified sentence terminators.
+
+
+e. Readability Index Calculation: The Readability Index is calculated using the formula:
+
+\section{Example Output}
+For each text file processed, the program provides the following information:
+ \begin{itemize}
+\item Filename
+\item Number of characters.
+\item Number of words
+\item Number of sentences
+\item Readability Index
+ \end{itemize}
+
+
+\section{Usage}
+You will be given few options , you have to choose : 
+\begin{enumerate}
+\item Read a file
+\item Number of Sentences
+\item Number of Words
+\item Number of characters 
+\item Compue All of the tasks...
+\item Exit
+\end{enumerate}
+You can choose any of of the above it will compute for all the files provided with the code 
+\section{Significance and Applications}
+
+Automated readability analysis has broad applications, ranging from educational materials assessment to content optimization for various audiences. This program provides a quick and automated way to evaluate the readability of textual content, aiding content creators and educators in producing material suitable for their target audience.
+
+\section{Conclusion}
+The program offers a valuable tool for assessing the readability of text files, providing insights into character, word, and sentence counts. While the rules and assumptions are heuristic and may not cover all linguistic nuances, they form a practical foundation for automated readability analysis. Future enhancements may involve incorporating more advanced natural language processing techniques to improve accuracy and broaden the scope of the program.
+
+\bibliographystyle{alpha}
+\bibliography{Reference}
+"GeeksForGeeks",
+"StackOverflow",
+"sparkbyexample",
+"RealPython".
+\end{document}

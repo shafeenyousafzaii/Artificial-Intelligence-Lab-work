@@ -1,0 +1,13 @@
+# Fdb version 4
+["pdflatex"] 1708033291 "/usr/share/texmf/tex/context/sample/common/sample.tex" "sample.pdf" "sample" 1708033291 2
+  "/etc/texmf/web2c/texmf.cnf" 1700581392 475 c0e671620eb5563b2130f56340a5fde8 ""
+  "/usr/share/texlive/texmf-dist/web2c/texmf.cnf" 1693172360 40357 c95f5d5e031b5c7040b426833c11f2e0 ""
+  "/usr/share/texmf/tex/context/sample/common/sample.tex" 1461363279 372 aa5c67e26b0597ea5c31e846e6a586af ""
+  "/usr/share/texmf/web2c/texmf.cnf" 1693172360 40357 c95f5d5e031b5c7040b426833c11f2e0 ""
+  "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1708014131 7907868 eb54e3c94c9f4090edd1aef09bc1291a ""
+  "sample.aux" 1708033291 32 3985256e7290058c681f74d7a3565a19 "pdflatex"
+  (generated)
+  "sample.aux"
+  "sample.log"
+  "sample.pdf"
+  (rewritten before read)
